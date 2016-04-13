@@ -1,0 +1,29 @@
+---
+title: "Physics to Data Science"
+author: "Douglas Ashton"
+email: "dashton@mango-solutions.com"
+maketitle: true
+ratio: 4x3
+date: "22nd April 2016"
+
+output: 
+  rmdshower::shower:
+    self_contained: false
+    katex: true
+    theme: mango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# I used to be a pretty big deal around here...
+
+Pictures of work with Nigel, networks. Use website pics
+
+# Outline
+
+# Physicists who went to Data Scientist
+
+
+
