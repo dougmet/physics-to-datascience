@@ -25,5 +25,11 @@ Pictures of work with Nigel, networks. Use website pics
 
 # Physicists who went to Data Scientist
 
+# Meetups 
+
+<center>
+[http://www.meetup.com/Bristol-Data-Scientists/](http://www.meetup.com/Bristol-Data-Scientists/)
+<img src="images/bds.jpg" width="500px">
+</center>
 
 
