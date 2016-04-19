@@ -76,6 +76,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <img src="images/r2d2.png" class="cover height" style="opacity: 0.6;">
 
+# What is data science?
+
+Statistics with knobs on
 
 # Physicists who went to data science
 
@@ -84,12 +87,45 @@ knitr::opts_chunk$set(echo = TRUE)
 * <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/010/109/237b51c.jpg" width="100px"> <a href="https://www.linkedin.com/in/yaelelmatad">Yael Elmatad</a> (Berkeley to Tapad) 
 * <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/063/165/3d3e24a.jpg" width="100px"> <a href="https://www.linkedin.com/in/aaronkeys">Aaron Keys</a> (Michigan to Airbnb) 
 
+
+# About Mango Data Science
+
+<div class="double">
+<p class="double-flow">
+* Analytic Consulting
+* Analytic Infrastructure
+* Application Development
+* Training
+* Strategy
+</p><p class="double-flow">
+<img src="images/mangoteam.png">
+</p>
+</div>
+
+# What sort of problems
+
+Three examples
+
+* Exploring
+* Understanding (Modelling)
+* Predicting
+
+# Example 1. Exploring
+
+# Example 2. Understanding
+
+# Example 3. Predicting
+
+# Tech
+
+
 # What I would do differently {.cover}
 <img src="images/regrets.jpg" class="cover height" style="opacity: 0.6;">
 
 # Tools
 
 * Version Control (GitHub, GitLab)
+* Reproducible Research
 * Project stuff (Agile, JIRA etc)
 
 
