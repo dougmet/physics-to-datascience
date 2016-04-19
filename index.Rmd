@@ -28,6 +28,26 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <img src="images/cubes.jpg" class="cover height" style="opacity: 0.6;">
 
+# The CV
+
+<center>
+
+<p style="line-height: 110%; margin-bottom: 0;">
+1982: Middlesbrough<br>
+&darr;<br>
+2000: Oxford University (MPhys) <br>
+&darr; <br>
+2004: University of Nottingham (PhD) <br>
+&darr; <br>
+2008: University of Bath (Postdoc) <br>
+&darr; <br>
+2011: Universiteit Utrecht, NL (Postdoc)<br>
+&darr;<br>
+2012: University of Bath (Postdoc)<br>
+&darr;<br>
+2014: Mango (Data Scientist)<br>
+</p>
+
 # I used to be a pretty big deal around here...
 
 <table width="100%">
@@ -54,6 +74,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # What I do now {.cover}
 
+<img src="images/r2d2.png" class="cover height" style="opacity: 0.6;">
+
+
 # Physicists who went to data science
 
 * <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAXCAAAAJGU5NWZiZTA2LTdiMTQtNDM4OS05N2FlLWU3MTZiNzBlZWU0Yw.jpg" width="100px"> <a href="https://uk.linkedin.com/in/elainebettaney">Elaine Bettany</a> (Bath to Expedia) 
@@ -63,6 +86,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # What I would do differently {.cover}
 <img src="images/regrets.jpg" class="cover height" style="opacity: 0.6;">
+
+# Tools
+
+* Version Control (GitHub, GitLab)
+* Project stuff (Agile, JIRA etc)
+
 
 # How to make the move {.cover}
 <img src="images/lightspeed.png" class="cover height" style="opacity: 0.6;">
