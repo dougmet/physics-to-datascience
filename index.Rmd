@@ -17,15 +17,63 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# I used to be a pretty big deal around here...
-
-Pictures of work with Nigel, networks. Use website pics
-
 # Outline
 
-# Physicists who went to Data Scientist
+> 1. What I used to do
+> 2. What I do now
+> 3. What I would do differently
+> 4. How to make the move
 
-# Meetups 
+# What I used to do { .cover }
+
+<img src="images/cubes.jpg" class="cover height" style="opacity: 0.6;">
+
+# I used to be a pretty big deal around here...
+
+<table width="100%">
+<tr><td width="50%">
+<img src="images/cubes.jpg" width="100%">
+</td><td width="50%">
+<img src="images/lockchain.jpg" width="100%">
+</td>
+</tr>
+</table>
+<a href="http://www.dougashton.net">www.dougashton.net</a>
+
+# I used to be a pretty big deal around here...
+
+<table width="100%">
+<tr><td width="50%">
+<img src="images/net.png" width="400px">
+</td><td width="50%">
+<img src="images/critpoint.png" width="350px">
+<a href="https://www.youtube.com/playlist?list=PLEiHoEYBhJ0C64aDoOJwpVM41F7RX28ZR">https://www.youtube.com/playlist?list=PLEiHoEYBhJ0C64aDoOJwpVM41F7RX28ZR</a>
+</td>
+</tr>
+</table>
+
+# What I do now {.cover}
+
+# Physicists who went to data science
+
+* <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAXCAAAAJGU5NWZiZTA2LTdiMTQtNDM4OS05N2FlLWU3MTZiNzBlZWU0Yw.jpg" width="100px"> <a href="https://uk.linkedin.com/in/elainebettaney">Elaine Bettany</a> (Bath to Expedia) 
+*  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/059/00e/1bb76d1.jpg" width="100px"> <a href="https://be.linkedin.com/in/patvarilly">Patrick Varilly</a> (Cambridge to Data Minded [Consultancy])
+* <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/010/109/237b51c.jpg" width="100px"> <a href="https://www.linkedin.com/in/yaelelmatad">Yael Elmatad</a> (Berkeley to Tapad) 
+* <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/8/005/063/165/3d3e24a.jpg" width="100px"> <a href="https://www.linkedin.com/in/aaronkeys">Aaron Keys</a> (Michigan to Airbnb) 
+
+# What I would do differently {.cover}
+<img src="images/regrets.jpg" class="cover height" style="opacity: 0.6;">
+
+# How to make the move {.cover}
+<img src="images/lightspeed.png" class="cover height" style="opacity: 0.6;">
+
+# Get experience
+
+Coursera, Kaggle, DataCamp etc, Hackathons (eg DataKind)
+
+# GitHub
+
+# Meet some people 
 
 <center>
 [http://www.meetup.com/Bristol-Data-Scientists/](http://www.meetup.com/Bristol-Data-Scientists/)
