@@ -1,0 +1,70 @@
+---
+title: "Fuel Efficieny"
+author: "Doug Ashton"
+date: "20 April 2016"
+output: html_document
+---
+
+### Data Sources
+
+I'm adding data to a Google Docs spreadsheet everytime I refuel.
+
+```{r}
+df <- read.csv("PetrolFocus.csv")
+```
+
+### Cleaning
+
+Some rows are missing the number of miles and so are being removed.
+
+```{r}
+df$Date <- as.Date(df$Date, format="%d/%m/%Y")
+df$Index <- 1:nrow(df)
+
+# Clean missing miles
+df <- df[!is.na(df$Miles), ]
+
+# Clean silly numbers
+df <- df[df$Miles.Gallon < 50, ]
+```
+
+### Impute missing date values
+
+Some dates are missing. Rather than lose the data we will make a linear interpolation to choose an approximate date.
+
+```{r}
+dfx <- data.frame(Index=df$Index, Date=as.numeric(df$Date))
+fit <- lm(Date ~ Index, data=dfx)
+
+x <- is.na(df$Date)
+df$Date[x] <- as.Date(round(predict(fit, df[x, "Index", drop=FALSE])), origin="1970-01-01")
+```
+
+### Time series
+
+```{r, message=FALSE, warning=FALSE}
+library(zoo)
+mpg <- zoo(df$Miles.Gallon, order.by = df$Date)
+
+df$Year <- lubridate::year(df$Date)
+
+plot(mpg)
+```
+
+### Year on year
+
+```{r}
+library(ggplot2)
+
+qplot(y=Miles.Gallon, x=as.factor(Year), data=df, geom="boxplot")
+
+```
+
+So is 2016 worse than 2015?
+
+```{r}
+t.test(df$Miles.Gallon[df$Year==2015], 
+       df$Miles.Gallon[df$Year==2016])
+```
+
+Can you think of a whole bunch of issues with this test?
