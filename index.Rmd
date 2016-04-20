@@ -24,6 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 > 3. What I would do differently
 > 4. How to make the move
 
+
 # What I used to do { .cover }
 
 <img src="images/cubes.jpg" class="cover height" style="opacity: 0.6;">
@@ -78,7 +79,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # What is data science?
 
-Statistics with knobs on
+# What is data science?
+
+Mostly branding.
+
+<table width="100%"><tr><td width="50%">
+### Academic roots
+* Statistics
+* Computer Science
+</td><td width="50%">
+
+### Applied side
+* Data wrangling
+* Techy
+</td></tr></table>
+
+\[ \sim \mathrm{Physicist} \]
+
+# What is a data scientist?
+
+```{r, message=FALSE, warning=FALSE, echo = FALSE}
+
+labs <- c("Communicator", "Data Wangler", "Programmer",
+          "Technologist",  "Modeller", "Visualizer")
+
+scores <- list(
+  "Rich" = c(9, 7, 4, 5, 3, 7),
+  "Andy" = c(7, 6, 6, 2, 6, 9),
+  "Aimee" = c(6, 5, 8, 4, 7, 6)
+)
+
+radarchart::chartJSRadar(scores = scores, labs = labs, maxScale = 10)
+```
 
 # Physicists who went to data science
 
@@ -112,7 +144,30 @@ Three examples
 
 # Example 1. Exploring
 
+* Finding patterns in data
+* Visualisation
+* Building a hypothesis
+* Cleaning. Lots of cleaning.
+
+# Example 1. Exploring
+
+```{r, echo=FALSE}
+set.seed(11)
+knitr::kable(iris[sample(1:nrow(iris),7), ], format="markdown")
+```
+
+# Example 1. Exploring
+
+```{r}
+kc <- kmeans(iris[,-5], 3)
+
+plot(iris[c("Sepal.Length", "Sepal.Width")], pch=16, col=kc$cluster)
+points(kc$centers[,c("Sepal.Length", "Sepal.Width")], col=1:3, pch=8, cex=2)
+```
+
 # Example 2. Understanding
+
+
 
 # Example 3. Predicting
 
@@ -122,19 +177,32 @@ Three examples
 # What I would do differently {.cover}
 <img src="images/regrets.jpg" class="cover height" style="opacity: 0.6;">
 
-# Tools
+# What I would do differently
 
-* Version Control (GitHub, GitLab)
-* Reproducible Research
-* Project stuff (Agile, JIRA etc)
+* More R/Python (<a href="https://github.com/dougmet/unsumnet/">unsumnet</a>)
+* Version control (GitHub, GitLab)
+* Reproducible research
+* Project management (Agile, JIRA etc)
 
+# Reproducible Research
+
+In your documents: knitr demo
+
+In your C code
+<img src="images/repgit.png">
+
+In your environments: <a href="http://www.londonr.org/presentations/2015/11/LondonR_-_Reproducible_Environments_-_Doug_Ashton_-_20151130.pdf">http://www.londonr.org/#presentations</a>
 
 # How to make the move {.cover}
 <img src="images/lightspeed.png" class="cover height" style="opacity: 0.6;">
 
 # Get experience
 
-Coursera, Kaggle, DataCamp etc, Hackathons (eg DataKind)
+* <a href="https://www.coursera.org/specializations/jhu-data-science"> <img src="images/coursera.svg">(jhu-data-science)</a>
+* <a href="https://www.kaggle.com/"><img src="images/kaggle.png" height="30px"></a>
+* Hackathons
+    * <a href="http://www.bathhacked.org/">Bath Hacked (bathhacked.org)</a>
+    * <a href="http://www.datakind.org/chapters/datakind-uk"><img src="images/datakind.png" height="30px"> (datakind.org)
 
 # GitHub
 
