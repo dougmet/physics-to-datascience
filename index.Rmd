@@ -24,6 +24,10 @@ knitr::opts_chunk$set(echo = TRUE)
 > 3. What I would do differently
 > 4. How to make the move
 
+# First. Kids photos... {.cover}
+
+<img src="IMG_0684.JPG" class="cover height">
+
 
 # What I used to do { .cover }
 
@@ -167,12 +171,25 @@ points(kc$centers[,c("Sepal.Length", "Sepal.Width")], col=1:3, pch=8, cex=2)
 
 # Example 2. Understanding
 
+```{r}
+fit <- lm(mpg ~ wt, data = mtcars)
+plot(mpg ~ wt, data = mtcars)
+abline(fit)
+```
 
 
 # Example 3. Predicting
 
+<img src="images/titanic.png" width="600px">
+
 # Tech
 
+<p class="double">
+<img src="https://cran.r-project.org/Rlogo.svg" width="250px">
+<img src="https://www.python.org/static/img/python-logo.png"  width="400px">
+<img src = "http://spark.apache.org/images/spark-logo-trademark.png" width="400px">
+<img src = "http://hadoop.apache.org/images/hadoop-logo.jpg" width="400px">
+</p>
 
 # What I would do differently {.cover}
 <img src="images/regrets.jpg" class="cover height" style="opacity: 0.6;">
@@ -206,6 +223,14 @@ In your environments: <a href="http://www.londonr.org/presentations/2015/11/Lond
 
 # GitHub
 
+<a href="https://github.com/">https://github.com/</a>
+
+* This is a hugely important part of your CV now.
+* Try submitting a pull request to another project
+* Upload your own code
+* Even presentations
+
+
 # Meet some people 
 
 <center>
@@ -213,4 +238,9 @@ In your environments: <a href="http://www.londonr.org/presentations/2015/11/Lond
 <img src="images/bds.jpg" width="500px">
 </center>
 
+# Mango are hiring :-)
 
+See the website:
+<a href="http://www.mango-solutions.com/wp/about-mango/team/">www.mango-solutions.com/wp/about-mango/team/</a>
+
+Email me: <a href="mailto:dashton@mango-solutions.com">dashton@mango-solutions.com</a>
